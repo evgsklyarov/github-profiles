@@ -1,8 +1,16 @@
 const colors = {
   mainBg: '#fff',
-  
+
   mainText: '#000',
   secondaryText: '#666',
+  errorText: '#fd4c35',
+  btnText: '#fff',
+
+  btnBg: '#50a7ea',
+  btnDisabledBg: 'rgba(154, 154, 154, 0.20)',
+
+  border: '#e2eaeb',
+  borderLoader: '#3498db',
 };
 
 const borderRadius = {
@@ -11,21 +19,9 @@ const borderRadius = {
   circle: '50%',
 };
 
-const size = {
-  sm: '576px',
-  md: '768px',
-  lg: '992px',
-  xl: '1200px',
-}
-const media = {
-  sm: `(min-width: ${size.sm})`,
-  md: `(min-width: ${size.md})`,
-  lg: `(min-width: ${size.lg})`,
-  xl: `(min-width: ${size.xl})`,
-}
-
-export default {
+const theme = {
   colors,
   borderRadius,
-  media,
 };
+
+export default theme;
