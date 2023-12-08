@@ -19,11 +19,12 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
+    "esModuleInterop": true,
     "baseUrl": ".",
     "paths": {
       "~/*": ["./src/*"]
     },
-    "types": ["node"] // This is needed to resolve the "path" module issue
+    "types": ["node", "jest"] // This is needed to resolve the "path" module issue
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
